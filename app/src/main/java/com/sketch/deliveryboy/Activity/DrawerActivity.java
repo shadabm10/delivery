@@ -14,6 +14,7 @@ import android.provider.Settings;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -156,9 +157,10 @@ public class DrawerActivity extends AppCompatActivity {
             //the method we have create in activity
         }
 
-       Intent first =new Intent(getApplicationContext(), com.sketch.deliveryboy.Activity.Dashboard.class);
-        startActivity(first);
-
+       FragmentManager fragmentManager = getSupportFragmentManager();
+        final FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragment = new Dashboard();
+        fragmentTransaction.commit();
 
             // Setup drawer view
             setupDrawerContent(navigationView);
