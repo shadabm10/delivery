@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="orange">#f6921e</color>
+    <color name="green">#54b450</color>
+    <color name="track_orange">#f7914d</color>
+    <color name="track_green">#33b442</color>
+    <color name="track_blue">#1081e0</color>
+    <color name="colorAccent">#1081e0</color>
+    <color name="grey">#DCDCDC</color>
+
+</resources>

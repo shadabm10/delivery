@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Job"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="18dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Title of the product"
+            android:padding="10dp"
+            android:gravity="left"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/description"
+            android:padding="10dp"
+            android:gravity="left"
+            android:textSize="16dp"/>
+
+
+        <!--
+                <RatingBar
+                    android:id="@+id/rating"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:padding="10dp"
+                    android:isIndicator="false"
+                    android:layout_gravity="center"
+                    android:theme="@style/RatingBar"
+                    android:progressTint="@color/track_orange"
+                    android:stepSize="1"
+                    />
+        -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:gravity="left"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="23dp"
+                android:src="@mipmap/pickuplocation"
+              />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pickingLocation"
+               android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:textStyle="bold"
+
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="-20dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+
+                android:gravity="left"
+                android:src="@mipmap/dot" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:layout_marginTop="-20dp"
+           >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:src="@mipmap/deliverylocation" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deliveryLocation"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:textStyle="bold"
+
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="View Map"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/track_blue"
+    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/Instruction"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:background="@drawable/checkbox" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pickingLocation"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:textStyle="bold"
+
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

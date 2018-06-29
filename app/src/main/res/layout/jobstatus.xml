@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Job Status"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="16dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="20dp">
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:gravity="left"
+                    android:background="@drawable/customround"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="23dp"
+
+                    />
+                <View android:id="@+id/pin_code"
+                    android:background="@color/track_blue"
+                    android:layout_width = "100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="1dip"
+                    />
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:gravity="left"
+                    android:background="@drawable/customround"
+                    android:layout_marginTop="4dp"
+
+
+                    />
+                <View android:id="@+id/code1"
+                    android:background="@color/track_blue"
+                    android:layout_width = "100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="1dip"
+                    />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:gravity="left"
+                    android:layout_marginTop="3dp"
+                    android:tint="@color/track_blue"
+                        android:src="@mipmap/pickuplocation"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:background="#ffffff">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Description"
+                    android:padding="10dp"
+                    android:gravity="left"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/description"
+                    android:padding="10dp"
+                    android:gravity="left"
+                    android:textSize="16dp"/>
+
+
+                <LinearLayout
+                    android:layout_below="@id/description"
+                    android:id="@+id/address_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp">
+                    <ImageView
+                        android:id="@+id/location_img"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/location32"/>
+
+                    <TextView
+                        android:id="@+id/addess"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:text="This is the first kgkdjgbdfjffkjdgbjkfdgbkfdbkj  "
+                        />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Map"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/track_blue"
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_comm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                >
+                <ImageView
+                    android:id="@+id/coin"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/coin"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+                <TextView
+                    android:id="@+id/commision"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View my Commission"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="15dp"
+                    android:gravity="left"
+                    android:textSize="16dp"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="$ 55.55"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="16dp"/>
+
+
+</LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:background="#ffffff">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Update Status"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textSize="16dp"/>
+
+
+                <RelativeLayout
+                    android:id="@+id/category_spinner"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:background="@drawable/bg_spinner"
+                    >
+
+
+                    <Spinner
+                        android:id="@+id/spinner_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/down_arrow_category"
+                        android:gravity="left"
+                        android:popupBackground="#0082c4"
+                        android:background="@android:color/transparent"
+                        android:spinnerMode="dropdown"
+                        android:layout_toStartOf="@+id/down_arrow_category"
+                         />
+
+                    <ImageView
+                        android:id="@+id/down_arrow_category"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:onClick="showDropDown"
+                        android:tint="#000000"
+                        android:src="@mipmap/dropdown16"
+                        android:layout_alignParentEnd="true" />
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:background="@drawable/button_bg"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Update"
+                    android:textColor="#ffffff"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="15dp"
+                    android:layout_below="@+id/down_arrow_category"
+                    android:gravity="center"
+                    android:textSize="14dp"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
